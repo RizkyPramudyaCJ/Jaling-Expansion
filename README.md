@@ -1,4 +1,4 @@
-# Jaling-Expansion
+# Jaling Expansion
 Jaling Expansion adds another human civilization which not connected to human space. Jaling have own space named Jaling Space.
 
 
@@ -14,6 +14,9 @@ There are two Factions in this time now
 - Ulcenia : Are ex-Indonesian decadent group with anger, decadent, authoritarian, and criminal personality. These group escape from Earth in 2065 during Jaling-Earth wars and arrive in New Way Kambas, Lempung Bogor in 2700 via time machine. These group is one of other factor why Indonesian become anger and emotional. These faction oftenly steal Jaling human ships, outfits, and lot of accessories. The colony located in east of Jaling Space.
 - Dark Beings (Not Implemented yet) : Are true evil aliens which use dark magic elements as primary power and very advanced alien like Pug. this faction ever make war with Setropis colony in Medieval age (200-800 M) and win during Pug-Dark Beings war in their galaxy with full strength. This faction reach Tier 5 as same as Pug.
 
+# History of Jaling Civilization
+A thousand years ago (2016), there are children and teenager group in Indonesia, Earth. They unhappy and loveless because their authoritarian parents and difficult for find a boyfriend/girlfriend for love. Because it, Rizky Pramudya make decision to escape from Earth by making secrets contact to alien civilization outside Sol and success in 2018 when Pug come to Earth with Pug Arfecta. Then, in this time the group escape from Earth by entering Pug Arfecta and surrender successfully. They arrive in tropical planet called Setropis in Miftahul System, they found Trovidia Queendom ruled by Bella Putri (Original name of Bella Putri Miftahul Nurjannah). They meet and live in Tropivia City, Trovidia Queendom. 2 years later, Bella Putri become girlfriend of Rizky Pramudya relationship. 5 years later, Bella Putri enter Islam and make decision to marry with Rizky Pramudya and her name get additional name, "Miftahul Nurjannah" and going to be immortal human. And in Endless Sky, Jaling technology reach tier 2.5.
+
 # Ships
 The ships in this expansion are :
 - Hero Class ships (Not implemented yet)
@@ -28,4 +31,5 @@ The ships in this expansion are :
 # License
 GNU General Public License v3
 
-Enjoy.
+
+You can give suggestion nor critics for this expansion.
