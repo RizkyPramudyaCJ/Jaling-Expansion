@@ -7038,7 +7038,7 @@ planet Selor
 planet Setropis
 	attributes "near earth" urban tourism factory jaling
 	landscape "land/beach manggar1"
-	description `Setropis is a Jaling Home that 33% Earth size planet than Earth, Sol. The most species in this planet is Homo sapiens setropisiens/jaling (hybrid between Homo sapiens sapiens and Homo sapiens setropis) that can breath in water, land, and air and ever high intelligence, emotional, and spiritual than human in human space (Earth Human). Unlike Earth human, Almost all of Jaling people are introvert, kindhearted, honestly, loyal, polite humanitarian, and serious.`
+	description `Setropis is a Jaling Home that 80% Earth size planet than Earth, Sol. The most species in this planet is Homo sapiens setropisiens/jaling (hybrid between Homo sapiens sapiens and Homo sapiens setropis) that can breath in water, land, and air and ever high intelligence, emotional, and spiritual than human in human space (Earth Human). Unlike Earth human, Almost all of Jaling people are introvert, kindhearted, honestly, loyal, polite humanitarian, and serious.`
 	description `	Setropis is also the capital of the Jaling Federation. The government are lead by Rizky Pramudya, Bella Putri, etc. Jaling Federation government form is merged (kingdom-republic-corporation) and use multigovernment system. Representative government in this territory is much transparent, fair, and clean in politic, social, economy, and even love relationship than Earth Human.`
 	spaceport `Setropis spaceport is most using magic for technology. This spaceport are guarded by Jaling Community, Jaling Group, Jaling Military, and Jaling Aeon.`
 	shipyard "Jaling Intermediate"
