@@ -26,7 +26,6 @@ phrase "friendly jaling federation"
 		"bangsa yang dulunya berasal dari bumi."
 		"bangsa yang dipimpin oleh Rizky Pramudya."
 		"bangsa yang dipimpin oleh Rizky Pramudya dan Bella Putri."
-		"bangsa yang bisa bernapas di dalam air selain di darat dan di udara."
 
 phrase "friendly jaling federation"
 	word
@@ -120,6 +119,22 @@ phrase "hostile jaling federation"
 		"ada yang salah pada psikis anda."
 		"ada masalah dengan keluargamu."
 		"kau dibesarkan di lingkungan otoriter."
+
+phrase "hostile disabled jaling federation"
+	word
+		"Saya tahu "
+	word
+		"kalau "
+		"jika "
+		"mungkin "
+	word
+		"anda memang "
+	word
+		"bermasalah dalam hidup. "
+		"tidak bahagia. "
+		"bermasalah dalam lingkungan. "
+	word
+		"Anda boleh berkonsultasi ke psikolog."
 
 phrase "hostile ulcenia"
 	word
@@ -218,3 +233,234 @@ phrase "hostile ulcenia"
 		"penghianat!!!"
 		"berandal!!!"
 		"egois!!!"
+
+phrase "hostile disabled ulcenia"
+	word
+		"Apanya"
+		"Apasih"
+		"APA"
+		"Kenapa memangnya"
+	word
+		"! Ih jijik lihat kamu"
+		"! Nyebelin lihat kamu"
+		"! Gak ada gunanya kamu"
+	word
+		"! Sana gak usah ikut aku"
+		"! Sana gak usah bantu aku"
+		"! Sana gak usah sok baik sama aku"
+		"! Suatu saat saya akan serang kamu"
+	word
+		"!"
+		"! Aku sial gara-gara kau!"
+		"! Saya senang jika kau menderita!"
+		"! Aku senang jika musuhku saling berseteru!"
+
+		
+		
+#Hails in english
+phrase "friendly jaling federation (english)"
+	word
+		"Hi, "
+	word
+		"good luck <last>!"
+		"good luck in Jaling Space."
+		"hopefully you will get partner as you want."
+		
+phrase "friendly jaling federation (english)"
+	word
+		"We are the Jaling, "
+	word
+		"who will accept you."
+		"a human colony from Earth in the past."
+		"the empire which lead by Rizky Pramudya."
+		"the empire which lead by Rizky Pramudya and Bella Putri."
+
+phrase "friendly jaling federation (english)"
+	word
+		"Want to have girlfriend/boyfriend? "
+		"Want to get girlfriend/boyfriend? "
+		"Want to have partner? "
+		"Want to get partner?  "
+	word
+		"Join "
+		"Please join "
+	word
+		"Jaling Federation. "
+		"us. "
+	word
+		"You can dating there comfortly."
+		"The civilian are friendly to you there."
+		"The civilian understand your need."
+		"Many partner candidate waiting you."
+		"The people will persuade you to find partner here."
+
+phrase "friendly jaling federation (english)"
+	word
+		"If "
+		"When "
+		"While "
+	word
+		"You "
+	word
+		"do "
+		"doing "
+		"forced to do "
+	word
+		"such deeds "
+	word
+		"maybe "
+		"probably "
+	word
+		"you have trouble in your life."
+		"have wrong with your psychology."
+		"you have trouble in your family."
+		"you growth in authoritarian environment."
+
+phrase "hostile jaling federation (english)"
+	word
+		"If "
+		"When "
+		"While "
+	word
+		"You "
+	word
+		"do "
+		"doing "
+		"forced to do "
+	word
+		"such deeds "
+	word
+		"maybe "
+		"probably "
+	word
+		"you have trouble in your life."
+		"have wrong with your psychology."
+		"you have trouble in your family."
+		"you growth in authoritarian environment."
+
+phrase "hostile disabled jaling federation (english)"
+	word
+		"I know "
+		"We know"
+	word
+		"if you really "
+	word
+		"have problem in your life. "
+		"unhappy. "
+		"have trouble with your environment. "
+	word
+		"You may consult to psychologist."
+
+phrase "hostile ulcenia (english)"
+	word
+		"Why you see me!!!"
+		"Don't see me!!!"
+
+phrase "hostile ulcenia (english)"
+	word
+		"I am the most "
+	word
+		"valid "
+		"cool "
+		"strong "
+		"great "
+	word
+		"about dating."
+		"about romance."
+		"about love."
+		"about relationship."
+	word
+		" You're lousy!!!"
+		" You're ugly!!!"
+		" You're cheap!!!"
+		" You're easy!!!"
+		" You're noob!!!"
+		" You're not fun!!!"
+		" You're traitor!!!"
+
+phrase "hostile ulcenia (english)"
+	word
+		"Being Introvert "
+		"Introvert "
+		"Being Introverted "
+		"Introverted "
+		"Sympathy "
+		"Kindness "
+		"Empathy "
+		"Kindhearted "
+		"Being Kindness "
+		"Friendly "
+		"Being Friendly "
+		"Being Sympathy "
+		"Being Empathy "
+		"Goodwill "
+		"Being Goodwill "
+		"Love "
+		"Poor "
+		"Being Poor "
+	word
+		"is for the "
+	word
+		"weak!"
+		"pathethic!"
+		"dumb!"
+		"disgusting!"
+		"box for pills!"
+		"fragile!"
+		"stale!"
+		"shamefull!"
+		"unfun!"
+		"uncool!"
+		"immature!"
+		"wasteful wastrel!"
+	word
+		" We are the "
+	word
+		"strong "
+		"fun "
+		"clever "
+		"fun generation of "
+		"cool "
+		"mature "
+	word
+		"race!"
+		"people!"
+
+phrase "hostile ulcenia (english)"
+	word
+		"We are "
+		"I am "
+	word
+		"the scariest pirate in the galaxy."
+		"the great people in the galaxy."
+		"the most fun in romance life!!!"
+
+phrase "hostile ulcenia (english)"
+	word
+		"You're "
+		"U're "
+	word
+		"traitor!!!"
+		"hooligan!!!"
+		"egoist!!!"
+
+phrase "hostile disabled ulcenia (english)"
+	word
+		"What"
+		"WHY"
+		"WHAT"
+		"Why"
+	word
+		"! I'm disgusted to see you"
+		"! I'm annoyed to see you"
+		"! There is no point I see you"
+	word
+		"! Go away, don't follow me"
+		"! Go away, don't help me"
+		"! Go away, don't to be good to me"
+		"! Someday I will attack you"
+	word
+		"!"
+		"! I frustrated because you!"
+		"! I'm glad if you suffer!"
+		"! I'm glad if my enemies fight each other!"

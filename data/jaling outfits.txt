@@ -79,3 +79,11 @@ outfit "Dark Punishment Rune"
 	"unplunderable" 1
 	description "This is another illegal hand to hand beside Nerve Gas. This hand to hand is created by dark magic rune which can obtain in the far outer of the galaxy. This magic is banned by Interstellar law and Jaling rules because this magic can harm the owner and other, and also this magic contains dark magic particle which can kill the owner. This dark magic particle is more dangerous than Nerve Gas chemical."
 	description "	But, this weapon can clear out an enemy quicker than other..."
+
+outfit "Trovidrum Book"
+	category "Other"
+	cost 0
+	"mass" 0
+	thumbnail "outfit/unknown"
+	description "This is a special book which contains mystery information or maybe Bella pouring thought result in this book. Jaling Scientist say that this book is good tutorial and can be trade into any things."
+	description "	Collect this book as much as to be trade into special outfits or money."

@@ -1,43 +1,6 @@
 
-galaxy "Milky Way"
-	pos 0 0
-	sprite ui/galaxy
-
-galaxy "label core"
-	pos -136 130
-	sprite label/core
-
-galaxy "label deep"
-	pos -658 -300
-	sprite label/deep
-
-galaxy "label dirt belt"
-	pos -515 260
-	sprite "label/dirt belt"
-
-galaxy "label earth"
-	pos -420 94
-	sprite label/earth
-
-galaxy "label north"
-	pos -324 -332
-	sprite label/north
-
-galaxy "label paradise"
-	pos -345 -136
-	sprite label/paradise
-
-galaxy "label rim"
-	pos -778 265
-	sprite label/rim
-
-galaxy "label south"
-	pos -566 501
-	sprite label/south
-
 galaxy "label jaling"
 	pos -614 1113
-	sprite label/jaling
 
 galaxy "label ulcenia"
 	pos 582 1006
@@ -6035,6 +5998,7 @@ planet Amar
 	spaceport `Amar spaceport can you see from Amar Global city in trophical climate. As like as Indonesia, they open his business in this spaceport that sell indonesian product and indonesian food.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Intermediate"
+	"required reputation" 50
 	bribe 0.2
 	security 0.75
 	tribute 6500
@@ -6064,6 +6028,7 @@ planet Aurelia
 	spaceport `Aurelia spaceport using sphere and green float technology to keep the spaceport floating on ocean surface. You can see from beach or sky (using airplane or ship). Although Aurelia spaceport floating, there are many market, merchant, internet cafe, school, and hotel.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.76
 	tribute 5500
@@ -6082,6 +6047,7 @@ planet Backboard
 	spaceport `Backboard spaceport looks clean, elegant, beautiful, more tree and green environment.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.1
 	security 0.8
 	tribute 3000
@@ -6095,6 +6061,7 @@ planet Bakuh
 	spaceport `Bakuh planet have a spaceport in middle of the forest. You can see visitor and tourism walked in spaceport. They'll see scenic view in this planet while Indonesian people visit this planet for selfie using camera to share on socmed.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.12
 	security 0.75
 	tribute 3500
@@ -6123,6 +6090,7 @@ planet Bella
 	spaceport `Bella spaceport is clean, elegant, advanced spaceport, and circle spaceport. There are a security and community that guard this spaceport and planet.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.1
 	security 0.8
 	tribute 12000
@@ -6138,6 +6106,7 @@ planet Beritum
 	spaceport `	The citizen in this spaceport are repair your ships.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.18
 	security 0.72
 	tribute 3400
@@ -6189,6 +6158,7 @@ planet Ciregon
 	spaceport `	The worker and community willing to fueling your ships by using their style fueling.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.2
 	security 0.75
 	tribute 1100
@@ -6202,6 +6172,7 @@ planet Dhani
 	spaceport `Dhani spaceport have market, merchant, bitcoin merchant, facilities, and gaming that they can play game multiplayer nor singleplayer. They can see Jaling human dating in this spaceport romantically. Many open source community are work in this spaceport. Beside that, you also find fashion shop in there.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.75
 	tribute 2500
@@ -6215,10 +6186,11 @@ planet Ekayati
 planet Esaria
 	attributes jaling tourism hunter
 	landscape land/sky8
-	description `This is a hunter home planet that have few small village that have colonized in 2528.  There are monster, dinosaurus, elder dragon, dragon, giant carapeceon crab, water monster, and sky monster. The hunters went to gathering, slaying, and capture monster for growing their economy and technology to export to Jaling Federation. Also, many weapon, armor, shield, and whatever created from monster and mineralm material. Oh there are a cat that can walk like human.`
-	spaceport `Esaria spaceport placed beside Esaria village. There are many hunter that speak to Jaling Human citizen from other planet to give solution to defeat monster in hunter mission. Different to village that slightly more traditional, this spaceport is much more modern than any village in Esaria Planet.`
+	description `This is a hunter home planet that have few small village that have colonized in 2528. There are many exotic animals here. The hunters went to gathering, slaying, and capture animals for growing their economy and technology to export to Jaling Federation. Also, many weapon, armor, shield, and whatever created from animals and mineral material. Oh there are a cat that can walk like human.`
+	spaceport `Esaria spaceport placed beside Esaria village. There are many hunter that speak to Jaling Human citizen from other planet to give solution to defeat animals in hunter mission. Different to village that slightly more traditional, this spaceport is much more modern than any village in Esaria Planet.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.1
 	security 0.7
 	tribute 1200
@@ -6232,6 +6204,7 @@ planet Estordia
 	spaceport `Estordia spaceport is easy to find by Jaling Human that shine magic particle that good for magician and summoner and shine radio waves.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 10
 	bribe 0.75
 	security 0.75
 	tribute 7500
@@ -6245,6 +6218,7 @@ planet Evelyn
 	spaceport `This planet have spaceport that placed in middle of plains. This spaceport have shop that sell food, recycle outfits, sandals, school equipment, t-shirt, etc that you can find in 2nd floor of Evelyn spaceport.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.2
 	security 0.75
 	tribute 2200
@@ -6266,6 +6240,7 @@ planet Fernanda
 	spaceport `A spaceport is near Fernanda Ecumenopolis city, near apartement buildings, hotel, farm house, farm buildings, and stadium. They play game soundtrack, dangdut music, or romance song.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.25
 	security 0.76
 	tribute 7100
@@ -6275,9 +6250,9 @@ planet Fernanda
 planet Florasan
 	attributes "jaling pirate" pirate
 	landscape land/fields2
-	description `Florasan was founded by Jaling Pirate leaders in 2830. Since then, The Ulcenia citizen had exploit big part of nature resource in this planet for their colony, and make any animals to die because their illegal logging and illegal activities. Numerous small manufacturing shops sell outfits that cannot be bought legally, and there is even a small shipyard where customized ships are sold.`
+	description `Florasan was founded by Ulcenia leaders in 2830. Since then, The Ulcenia citizen had exploit big part of nature resource in this planet for their colony, and make any animals to die because their illegal logging and illegal activities. Numerous small manufacturing shops sell outfits that cannot be bought legally, and there is even a small shipyard where customized ships are sold.`
 	description `	Much of the planet is plains. Strip mining has turned big parts of the planet into barren wastelands, and has polluted many of the rivers and air.`
-	spaceport `The spaceport is messy and dirty. Many of the shops and factory produce illegal goods and dangerous weapons. The windows boarded over or covered with yellowing paper. You enter this spaceport and then The Jaling Pirate come and intercept you and ask "Mau ngapain kamu datang kesini?!!!" its means "What are you doing to come here?!!!". You answer that you just see scenic in this spaceport and Jaling Pirate will release interception for you.`
+	spaceport `The spaceport is messy and dirty. Many of the shops and factory produce illegal goods and dangerous weapons. The windows boarded over or covered with yellowing paper. You enter this spaceport and then Ulcenia come and intercept you and ask "Mau ngapain kamu datang kesini?!!!" its means "What are you doing to come here?!!!". You answer that you just see scenic in this spaceport and Ulcenians will release interception for you.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6294,6 +6269,7 @@ planet Fukarina
 	spaceport `The spaceport is in Ecumenopolis. These are many PC game, scanner, research equipment, etc. You can found Rizky Pramudya romance nobel in this spaceport.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 10
 	bribe 0.2
 	security 0.65
 	tribute 16000
@@ -6309,6 +6285,7 @@ planet Gantar
 	spaceport `	They are welcome to you and any good visitor and let's you do most things for them.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.15
 	security 0.81
 	tribute 1900
@@ -6324,6 +6301,7 @@ planet Garut
 	spaceport `	But, despite they are introvert, it's not mean they are anti-social. They still willing to refuel your ships and speak to you.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.8
 	tribute 5700
@@ -6333,8 +6311,8 @@ planet Garut
 planet Gatejo
 	attributes "jaling pirate" pirate
 	landscape land/myrabella7
-	description `Gatejo is a planet that place in the outest system in Jaling Pirate (Ulcenia Male). In there, the Male of the Ulcenia (now as pirate) hard to get pairings because they fault. Because this, The Ulcenia colony will attack Jaling Federation until now. In this planet, many drug dealer and tatto shop anywhere.`
-	spaceport `Gatejo Spaceport look dirty, messy, and many night clubbing and poker or betting in this spaceport. Also many drug dealer in this spaceport so all good people and good alien will ilfeel (ilang feeling) after seeing Jaling Pirate activity.`
+	description `Gatejo is a planet that place in the outest system in Ulcenia. In there, the Male of the Ulcenia hard to get pairings because they fault. Because this, The Ulcenia colony will attack Jaling Federation until now. In this planet, many drug dealer and tatto shop anywhere.`
+	spaceport `Gatejo Spaceport look dirty, messy, and many night clubbing and poker or betting in this spaceport. Also many drug dealer in this spaceport so all good people and good alien will ilfeel (ilang feeling) after seeing Ulcenia human activity.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6347,8 +6325,8 @@ planet Gatejo
 planet Halindau
 	attributes "jaling pirate" pirate
 	landscape land/mfield2
-	description `Halindau is populated by billions of Pirate population. The hill, mountain, tower, BTS, city are very common in here. Big Mall, Shop on Ship, Skyscrapper Buildings, Great Building Farm, City in Buildings are mostly found in Halindau. Ironically, The Pirate kill several animals and logging several tree in forest for 200 years ago. The Pirate also do their crime, illegal activities, and even evil personallity.`
-	spaceport `You landed your ship, then you enter this spaceport. You found that pirate are do clubbing everytime, playing poker and betting, represent stolen Jaling technology, beer, khomar, etc.. Then, you go walk into another room and found there are several hostage victim that hostaged by Pirate.`
+	description `Halindau is populated by billions of Ulcenia population. The hill, mountain, tower, BTS, city are very common in here. Big Mall, Shop on Ship, Skyscrapper Buildings, Great Building Farm, City in Buildings are mostly found in Halindau. Ironically, The Ulcenia kill several animals and logging several tree in forest for 200 years ago. They also do their crime, illegal activities, and even evil personallity.`
+	spaceport `You landed your ship, then you enter this spaceport. You found that Ulcenia are do clubbing everytime, playing poker and betting, represent stolen Jaling technology, beer, khomar, etc.. Then, you go walk into another room and found there are several hostage victim that hostaged by them.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6367,7 +6345,7 @@ planet Hatuna
 	attributes "jaling pirate" pirate
 	landscape land/sky0
 	description `Hatuna is a plains world which contains form of life. It has water as which contains oxygen and hidrogen like Earth even only 40% of this planet. It contains forest from earthlike and however contains mammal from earthlike.`
-	description `	Jaling Pirate (Bad Girl) discovered this world to carrying their stolen goods from other civilization into this by store into their secret underground home. In surface there are very few colonies while in cave there are lot of colonies.`
+	description `	Ulcenia discovered this world to carrying their stolen goods from other civilization into this by store into their secret underground home. In surface there are very few colonies while in cave there are lot of colonies.`
 	spaceport `The spaceport is unusual, it established in underground of the surface (or in other word they are placed in cave). But, top of the spaceport is perforated (no stone of the top cave). So, you can land your ship easily. Beside it, there are minings facilities which mine metal, gas, oil, and other material.`
 	spaceport `	To avoid being detected by Jaling Federation community and other alien authority, The Bad Girl colonies establish their colonies far more below of the surface.`
 	shipyard "Jaling Intermediate"
@@ -6386,6 +6364,7 @@ planet Hijautropis
 	spaceport `Hijautropis spaceport placed near apartement buildings, megabuildings, and hypermall. In this spaceport, there are a guardian and summoner that protect this spaceport to keep secure. There are also had merchant, game seller, chief cooking, imported ship and outfits from human space, etc.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.8
 	tribute 6700
@@ -6401,6 +6380,7 @@ planet Icha
 	spaceport `	They are welcome and willing to trade with you and willing to refuel your ships anytime your visit in this planet.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.25
 	security 0.8
 	tribute 2300
@@ -6422,6 +6402,7 @@ planet Intan
 	spaceport `Intan has a spaceport that using float technology and float around the sea. There are another spaceport that placed on small island, but rarely colony using this spaceport that build on island. There are Jaling Human and regular human interaction in this spaceport.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.25
 	security 0.75
 	tribute 4100
@@ -6472,7 +6453,7 @@ planet "Karang Jaruka"
 	landscape land/sea15-harro
 	description `Karang Jaruka is an ocean world. It's almost contain 90% ocean and 10% land. In ocean, there are many marine life, whale, sea plant, etc. And also, there are huge coral named "Terumbu Karang Jaruka". In land, there are few plant nor animals and even few colonies in this world.`
 	description `	For their colonies, they use material from ocean to establish their home.`
-	spaceport `The spaceport in this world is stylish. It has room like human usual home, such as living room, family room, etc.. And for establish this spaceport, the villager use asteroid and also marine material as spaceport material. Jaling Pirate (Bad Girl) walk and do their activities for their time.`
+	spaceport `The spaceport in this world is stylish. It has room like human usual home, such as living room, family room, etc.. And for establish this spaceport, the villager use asteroid and also marine material as spaceport material. Ulcenia womans walk and do their activities for their time.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6489,6 +6470,7 @@ planet Khansa
 	spaceport `Khansa spaceport can be found near the farm and mountain. You can found this by using scanner. There are mmch visitor visit Khansa in this spaceport to view Khansa environment scenic.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.2
 	security 0.75
 	tribute 6000
@@ -6502,6 +6484,7 @@ planet Khatulistiwa
 	spaceport `Khatulistiwa has a spaceport that near city. The spaceport use dynamic lamp, dangdut music, in-game soundtrack music, and gaming tournament. In other sector, they sell finished work from this planet to any other planet in Jaling space.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.2
 	security 0.75
 	tribute 4200
@@ -6515,12 +6498,13 @@ planet Kidulkulon
 planet Kulasawan
 	attributes jaling tourism hunter
 	landscape land/water6
-	description `Kulasawan is a plains and forested planet that there are wild animal, wild plant, monster, elder monster, and various monster that several hunter can harvesting material even slaying monster. There are many areas such as plains, forest, ocean, desert, taiga, tundra, snowy mountain, hills, jungle, swamp, and many areas here.`
+	description `Kulasawan is a plains and forested planet that there are wild animal, wild plant, and various animals that several hunter can harvesting material even hunt animals. There are many areas such as plains, forest, ocean, desert, taiga, tundra, snowy mountain, hills, jungle, swamp, and many areas here.`
 	description `	Also, there are hunting school. Beside that, there are academy school for kids and teenage.`
 	spaceport `The spaceport is establish by Jaling human by using glass, metalic, graphene, and stainless steel. The spaceport contains living room, meeting room, family room, kitchen, hangar, discussion room, work room, office room, shop, merchant, and many more facilities.`
 	spaceport `	The worker work maintenance this spaceport, teenager studying in family room, kids playing game in bedroom, and merchant sell goods to another in shop or in bedroom.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.15
 	security 0.7
 	tribute 2900
@@ -6534,6 +6518,7 @@ planet Laureen
 	spaceport `Laureen Spaceport are designed to support go green principal. There are many wood shop, food shop, electronic shop, and rent.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.25
 	security 0.75
 	tribute 2300
@@ -6547,6 +6532,7 @@ planet Listi
 	spaceport `Listi has spaceport that can be find from sky even from space using human technology. Using magic is better for find this spaceport from further space. In Listi Spaceport, you can find school equipment, food, drink, even Indonesian food from Jaling Federation for cooking.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.1
 	security 0.8
 	tribute 3800
@@ -6556,9 +6542,9 @@ planet Listi
 planet Lunaria
 	attributes "jaling pirate" pirate
 	landscape land/water4
-	description `Lunaria is a ocean planet. In 2700s, the Jaling Pirate (not Jaling human, but Earth Human (Homo sapiens sapiens) landing their ships in this planet for first colonization for spying and attacking Jaling people in Jaling Space. Then, they spread out and expand into east of Jaling Pirate space and go crime, murders, and corruption activity.`
-	description `	Now, the pirate will bring stolen technology from Jaling Human (The Humans of The Jaling) to attack against Jaling Colony.`
-	spaceport `The Pirate in Lunaria Spaceport was placed on continent named Lunaritania. In Lunaritania have city named Lunaturegon City. Lunaturegon City are filled by murderer, better, casino, and any illegal activities in all of this planet, including in this spaceport.`
+	description `Lunaria is a ocean planet. In 2700s, the Ulcenia landing their ships in this planet for first colonization for spying and attacking Jaling people in Jaling Space. Then, they spread out and expand into east of Ulcenia space and go crime, murders, and corruption activity.`
+	description `	Now, Ulcenia will bring stolen technology from Jaling Human (The Humans of The Jaling) to attack against Jaling Colony.`
+	spaceport `Lunaria Spaceport was placed on continent named Lunaritania. In Lunaritania have city named Lunaturegon City. Lunaturegon City are filled by murderer, better, casino, and any illegal activities in all of this planet, including in this spaceport.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6581,6 +6567,7 @@ planet Maynanda
 	spaceport `Maynanda spaceport can be find near Maynanda Ecumenopolis city and you can find many weapon, armor, and equipment that using more advanced technology.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.1
 	security 0.8
 	tribute 4500
@@ -6594,6 +6581,7 @@ planet Mayunda
 	spaceport `Mayunda spaceport can be seen from the top of building, sky, or from sea. Mayunda spaceport use graphene material that make spaceport much stronger and durable. There are a bunker room that consists of bedroom, kitchen, bathroom, living room, gaming room, internet cafe that using wi-fi, li-fi, and however that can be found there.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.75
 	tribute 3000
@@ -6610,6 +6598,7 @@ planet Mojokerta
 	spaceport `	`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.18
 	security 0.8
 	tribute 4500
@@ -6623,6 +6612,7 @@ planet Mutia
 	spaceport `Mutia spaceport placed in desert that have beacon and dynamic lamp. This spaceport visited by tourism for see Mutia Planet scenic. There are many cold drink and fried rice for survive in this planet.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.23
 	security 0.75
 	tribute 3400
@@ -6632,7 +6622,7 @@ planet Mutia
 planet Narbutan
 	attributes "jaling pirate" pirate
 	landscape land/sea9
-	description `Narbutan is an oceanic world which filling 85% of the surface world. It contains plestosaurus, marine dragon, monster fish (with huge fish size), etc. In the land, there are few mountains. Jaling Pirate use their technology to build their floating city to settled their villager and townies in this city further. Also, they create floating land for their industries and facilities. The native industries is salt, fishing, rafting, and scenic destination.`
+	description `Narbutan is an oceanic world which filling 85% of the surface world. It contains plestosaurus, marine animal, etc. In the land, there are few mountains. Ulcenia use their technology to build their floating city to settled their villager and townies in this city further. Also, they create floating land for their industries and facilities. The native industries is salt, fishing, rafting, and scenic destination.`
 	spaceport `In near the city, you found the spaceport which placed on top of the floating city. But, to prevent the floating city with spaceport to be drowning, they build the floating engine in many side of bottom of the floating city. The spaceport contains many facilities for the visitor but also have illegal facilities too, like drug, illegal magic, etc.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
@@ -6646,9 +6636,9 @@ planet Narbutan
 planet "New Bandung"
 	attributes "jaling pirate" pirate
 	landscape land/city0
-	description `New Bandung are also Jaling Pirate planet which oftenly found several rivers, lakes, and marine creatures. New Bandung also oftenly found dam, skyscrapper cities, airports, airships, and more. In this planet, The Ulcenia sell drug, pirate product, stolen Jaling Technology, and any other illegal activities. They also oftenly murder several animals their encounter in anywhere.`
+	description `New Bandung are also Ulcenia planet which oftenly found several rivers, lakes, and marine creatures. New Bandung also oftenly found dam, skyscrapper cities, airports, airships, and more. In this planet, The Ulcenia sell drug, pirate product, stolen Jaling Technology, and any other illegal activities. They also oftenly murder several animals their encounter in anywhere.`
 	description `	In Transport, The Ulcenias use Jetpack, Airship, or Air Skateboard to avoid many wild creatures.`
-	spaceport `This spaceport has guarded by several Jaling Pirate people. But, you landed your ship far from their spaceport. You see that The Pirate was like to murder several animals for their production: drug, illegal goods, illegal product, fake product, and any illegal things.`
+	spaceport `This spaceport has guarded by several Ulcenia people. But, you landed your ship far from their spaceport. You see that they was like to murder several animals for their production: drug, illegal goods, illegal product, fake product, and any illegal things.`
 	spaceport `	Also, like Syndicate. 92 of 100 peoples in this spaceport are atheist.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
@@ -6668,6 +6658,7 @@ planet "New Bogor"
 	spaceport `New Bogor Spaceport has Quantum computer, Ice Rune, Energy Rune Generation, Massive Ice Cream Seller, Open Source Game, etc.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.1
 	security 0.8
 	tribute 3000
@@ -6681,6 +6672,7 @@ planet "New Indonesia"
 	spaceport `New Indonesia Spaceport was placed between swamp and plains biome. There are many farmer, scientist, go green community, Jaling Community are there to go working together in this planet. They sell food, wood, and finished good from work result to everyone.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.2
 	security 0.75
 	tribute 3200
@@ -6690,8 +6682,8 @@ planet "New Indonesia"
 planet "New Mahapura"
 	attributes "jaling pirate" pirate desert
 	landscape land/sky9
-	description `New Mahapura are deserted and urban planet which many cities, mining, material mining, electronic mining, and clubbing. This planet is more poluted than Earth. The Jaling Pirate will get out and clubbing in the night. Also, The Ulcenia in this planet consume drug, illegal goods, illegal magic (Dark Punishment Rune), and any harmful goods.`
-	spaceport `In this spaceport, There are several Ulcenia people which loving their bad pairings and Jaling Human prostitution victim. There are hostaged victim under spaceport buildings. In underground spaceport, the victim live in messy, unhealthy, and dirty room. Also, the Jaling Pirate also clubbing everytime in this spaceport.`
+	description `New Mahapura are deserted and urban planet which many cities, mining, material mining, electronic mining, and clubbing. This planet is more poluted than Earth. Ulcenia people will get out and clubbing in the night. Also, The Ulcenia in this planet consume drug, illegal goods, illegal magic (Dark Punishment Rune), and any harmful goods.`
+	spaceport `In this spaceport, There are several Ulcenia people which loving their bad pairings and Jaling Human prostitution victim. There are hostaged victim under spaceport buildings. In underground spaceport, the victim live in messy, unhealthy, and dirty room. Also, they clubbing everytime in this spaceport.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6706,9 +6698,9 @@ planet "New Mahapura"
 planet "New Palembang"
 	attributes "jaling pirate" pirate
 	landscape land/bwerner1
-	description `New Palembang is a settled Ulcenia world, home mostly to save stolen goods, item, and product in cargo storage buildings. Also, the pirate kill mostly animals for their criminal activities. The facilities here is a clubbing, poker, casino, wild race, illegal race and illegal run.`
+	description `New Palembang is a settled Ulcenia world, home mostly to save stolen goods, item, and product in cargo storage buildings. Also, Ulcenians kill mostly animals for their criminal activities. The facilities here is a clubbing, poker, casino, wild race, illegal race and illegal run.`
 	description `	The mostly environment of this planet is water, where this planet almost filled by marine creatures, like shark, dolphins, whale, minnows, and anyother marine creatures.`
-	description `	In transport, The pirate use their polluted transport, very high noise flying car, and very low efficiency flying transport.`
+	description `	In transport, Ulcenians use their polluted transport, very high noise flying car, and very low efficiency flying transport.`
 	spaceport `The spaceport is a single building, but this port was designed for very large volumes of cargo or of visitors. The only place you can see where you might be able to get something is bar, restaurant, clubbing, and any other fun facilities. You personality must be bad to enter their room and access all of their facilities. So, because that you not to be bad, you spy their facilities with your portable facilities. You have a conclusion that all citizen of this planet are pirate, not hostage victim.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
@@ -6723,8 +6715,8 @@ planet "New Pekalongan"
 	attributes "jaling pirate" pirate
 	landscape land/canyon6
 	description `New Pekalongan is a plains planet which have very few plant and animals in many areas of this planet while this planet have much expensive minerals, metals, stone, and any other expensive material that spread in New Pekalongan. But, since pirate colonization, they do their mass exploitation for mineral and other expensive materials to build dangerous weapon.`
-	spaceport `This spaceport is ditry. You see various dangerous weapon created from expensive materials by pirate leaders. Then, you see weapon factory which use its materials for its pirate weapon to kill animals, victim, and any more.`
-	spaceport `	But, you can learn from this spaceport is that Jaling pirate have expensive materials whereas become rich in illegal way.`
+	spaceport `This spaceport is ditry. You see various dangerous weapon created from expensive materials by Ulcenia leaders. Then, you see weapon factory which use its materials for its pirate weapon to kill animals, victim, and any more.`
+	spaceport `	But, you can learn from this spaceport is that they have expensive materials whereas become rich in illegal way.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6738,13 +6730,14 @@ planet "New Pekalongan"
 
 planet "New Samarinda"
 	attributes jaling "near earth" urban tourism factory textill
-	landscape land/mfield3
+	landscape land/samarinda1-rpcj
 	description `New Samarinda is a urban planet that have much more advanced and same facility as Samarinda City in Earth. Citizen can found various facilities in this planet. There are beach, forest, swimming pool, etc. The most popular place in this planet is "Samarinda Beach" which provide exotic scenic into visitor eye.`
 	description `	In transport, citizen use teleportation, flying motorcycle, flying car, FTL airship, hyperloop train to reach their destination they want.`
 	spaceport `There are many guardian in enter gate to guard this spaceport. In spaceport, there are many community work their job freely: create applied art; create art; do experimental their research; developing software and hardware; building their ships, airships, spaceship; etc.`
 	spaceport `	They come to you and say "Halo" and welcome to you and the visitor which come here.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.8
 	tribute 5700
@@ -6770,8 +6763,8 @@ planet "New Samboja"
 planet "New Sintang"
 	attributes "jaling pirate" pirate "near earth"
 	landscape land/water10-harro
-	description `New Sintang are forest, tropical, and terran planet which fresh air, much lake, artificial lake, dam, river, and near earth like. But, few human pirate (Ulcenia) settlement, city, and park. The Ulcenia also hidding several victim (Jaling Human, Human), and hostage victim into underground colony under surface.`
-	spaceport `If New Sintang planet are clean and fresh, but New Sintang Spaceport are messy, untreated, and dirty. The Jaling Pirate intercepted you and ask "Mau ngapain kamu disini?!" is translated to "What are you doing here?!". You answer their ask with your reason and Jaling pirate released interception for you.`
+	description `New Sintang are forest, tropical, and terran planet which fresh air, much lake, artificial lake, dam, river, and near earth like. But, few settlement, city, and park. The Ulcenia also hidding several victim (Jaling Human, Human), and hostage victim into underground colony under surface.`
+	spaceport `If New Sintang planet are clean and fresh, but New Sintang Spaceport are messy, untreated, and dirty. Ulcenians intercepted you and ask "Mau ngapain kamu disini?!" is translated to "What are you doing here?!". You answer their ask with your reason and they released interception for you.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6786,9 +6779,9 @@ planet "New Sintang"
 planet "New Surabaya"
 	attributes "jaling pirate" pirate
 	landscape land/city6
-	description `New Surabaya is an urban deserted pirate planet. This is a place which mostly have city and various facility from stolen human, jaling human, nor alien technology for their pirate citizen. This place is also mostly poluted, very high victim abduction, prostitution, ridicule victim heart, etc.`
+	description `New Surabaya is an urban deserted planet. This is a place which mostly have city and various facility from stolen human, jaling human, nor alien technology for their citizen. This place is also mostly poluted, very high victim abduction, prostitution, ridicule victim heart, etc.`
 	description `	Also, many several clubbing are spread on this planet.`
-	spaceport `You landing your ship and see many killed several victim and animals. Then, you enter New Surabaya spaceport. You found many clubbing, drug factory, nuclear laboratorium, etc.. You enter mysterious room and found text contents "The good are weak, we are strong!!! The kindness are terrible, we are the best!!! The introvert are dumb, we are most socialize!!! The Hai are weak, we are strong human with Unfettered!!!". In conclusion is that Jaling Pirate are liar and befriend with Unfettered Hai.`
+	spaceport `You landing your ship and see many killed several victim and animals. Then, you enter New Surabaya spaceport. You found many clubbing, drug factory, nuclear laboratorium, etc.. You enter mysterious room and found text contents "The good are weak, we are strong!!! The kindness are terrible, we are the best!!! The introvert are dumb, we are most socialize!!! The Hai are weak, we are strong human with Unfettered!!!". In conclusion is that Ulcenia are liar and befriend with Unfettered Hai.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6803,7 +6796,7 @@ planet "New Surabaya"
 planet "New Way Kambas"
 	attributes "jaling pirate" pirate
 	landscape land/city10
-	description `New Way Kambas is first home to the Jaling Pirate (Ulcenia) colonies in Jaling history. The Ulcenia colonize this planet with the goal of their corrupt goals. The Primary leaders control their faction and their colony, and in fact Jaling Ulcenia is a corrupt multi-government. Also, New Way Kambas is a capitol of Jaling Pirate (Ulcenia) and other Ulcenia community.`
+	description `New Way Kambas is first home to the Ulcenia colonies in Jaling history. The Ulcenia colonize this planet with the goal of their corrupt goals. The Primary leaders control their faction and their colony, and in fact Ulcenia is a corrupt multi-government. Also, New Way Kambas is a capitol of Ulcenia and other Ulcenia community.`
 	spaceport `The sign you see beside door place that read "Kebaikan dan kasih sayang itu gak ada gunanya! Itu hanya bagi orang lemah!", its means "Kindness and love is no point! It is for weak person!". Then, you enter inner room of this spaceport and found sign that reads "Gaul itu harus!!! Jadi kalem juga tidak ada gunanya!!! Percuma saja kau menjadi orang baik, kau juga gak asyik!!! Dasar cupu!!!", the sign means "To be slanger is must!!! To be calm is also no point!!! Useless to you to be kindness person, you are not fun!!! Box for pills!!!".`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
@@ -6821,8 +6814,8 @@ planet Nunujaya
 planet "Padang Kuning"
 	attributes "jaling pirate" pirate
 	landscape land/badlands9-harro
-	description `The pirate had establish their colony to build glamour, hedonist, and materialist life. Poverty, criminal, murder, drug dealer, corrupt polithic, corruption, prostitution, and any other social-economy are common in this planet. Also, the shop sell stolen Jaling Federation (Jaling Human) shp, outfit, item, equipment, and any stolen Jaling Federation commodity and resell item from Pirate from earth human space.`
-	spaceport `This spaceport is messy. The Pirate in this spaceport abducted Jaling Human not because the pirate (Ulcenia) love him/her, but even ridicule and lying their heart whereas ridiculing any people heart is prohibited in Jaling Federation rule because this is unethical.`
+	description `The civilians had establish their colony to build glamour, hedonist, and materialist life. Poverty, criminal, murder, drug dealer, corrupt polithic, corruption, prostitution, and any other social-economy are common in this planet. Also, the shop sell stolen Jaling Federation (Jaling Human) shp, outfit, item, equipment, and any stolen Jaling Federation commodity and resell item from Pirate in human space.`
+	spaceport `This spaceport is messy. The civilians in this spaceport abducted Jaling Human not because Ulcenia love him/her, but even ridicule and lying their heart whereas ridiculing any people heart is prohibited in Jaling Federation rule because this is unethical.`
 	shipyard "Jaling Basics"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -6845,6 +6838,7 @@ planet "Pasir Semar"
 	spaceport `Pasir Semar have spaceport near sand collector factory. Many sand merchant and hunter that gathering item in this planet during mission. Also, there are Jaling Human and Regular human speaking using English.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.2
 	security 0.7
 	tribute 1400
@@ -6899,6 +6893,7 @@ planet Rahmanita
 	spaceport `Rahmanita has spaceport. The spaceport can you see from sea or beach. The spaceport use andesite and stone brick as materials, so spaceport buildings are strong. You can see musician, writer, blogger, netter, gamer, and any introvert people in this spaceport. They sell a laptop, milk drink, RAM, Processor, and many other Computer chips.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.2
 	security 0.75
 	tribute 5100
@@ -6910,9 +6905,10 @@ planet Redelang
 	landscape land/sea0
 	description `This planet is mostly plains biome, with geographically mostly consisting of low hills, plains, and oceans. There are the various plant, such as turmeric, ginger, galangal, ginseng, and cutchery. Also, there are various animals, such as cat, tiger, lion, wolf, etc. The citizen use aminal and plants for their technology to minimalist pollution.`
 	description `	For culture, their use Indonesian culture as primary culture: eating rice; harvesting rice; rendang food; wayang show; Reog dance; and any other indonesian culture.`
-	spaceport `This spaceport is bulid from graphene and from monster material. The spaceport have many door and window for ventilation. Also, this will builded vertically to accomodate more residents nor visitor. The visitor include adult, teenage, even kids visit this spaceport to see scenic planet. Also, there are the workers who lets them to work with them for constructing new technology and anything related to advancement.`
+	spaceport `This spaceport is bulid from graphene and from asteroid material. The spaceport have many door and window for ventilation. Also, this will builded vertically to accomodate more residents nor visitor. The visitor include adult, teenage, even kids visit this spaceport to see scenic planet. Also, there are the workers who lets them to work with them for constructing new technology and anything related to advancement.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.2
 	security 0.75
 	tribute 3100
@@ -6922,7 +6918,7 @@ planet Redelang
 planet Remburu
 	attributes "jaling pirate" pirate
 	landscape land/badlands1
-	description `Remburu is a deserted world where the rain weather are rare in this place. The most of the creature which live in this ecosystem are desert cat, desert bird or even cactus. It rarely found water or even lake like usual desert. Jaling Pirate founded this world and colonize this world for mining and sand factory.`
+	description `Remburu is a deserted world where the rain weather are rare in this place. The most of the creature which live in this ecosystem are desert cat, desert bird or even cactus. It rarely found water or even lake like usual desert. Ulcenia founded this world and colonize this world for mining and sand factory.`
 	description `	In transport, the villager use sand generated and solar generated energy to operate the vehicle to travel into tarrival destination their like.`
 	spaceport `The spaceport are unusual because be placed beside cave which make the ship more difficult to landing on it. It because the spaceport view are blocked by upper of the cave. The spaceport contains hotel, swimming pool, home, park, etc.`
 	spaceport `	The townies or villager sit down on this spaceport during relax time.`
@@ -6943,6 +6939,7 @@ planet Retahiang
 	spaceport `	But, their seem happily to you and refuel your ships.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.8
 	tribute 4600
@@ -6953,10 +6950,11 @@ planet "Ring of Romance"
 	attributes jaling station tourism "near earth"
 	landscape land/space7
 	description `This is a complete ringworld, the product of millennia of construction effort which has consumed every other stellar object in this system in order to provide the raw materials. The inner edge of the ring is filled with solar panels, hydroponic gardens, living quarters, and sunlit common spaces. The outer edge contains hangars and docks for ships, and storage facilities for cargo.`
-	description `	Massive station-keeping thrusters on the ring's exterior keep its orbit from becoming unstable. Now the Quarg tributed this ringworld to Jaling Federation and now Jaling own this ringworld. Jaling Citizen reprogrammed ringworld language into Jaling own language (Bahasa Indonesia).`
+	description `	Massive station-keeping thrusters on the ring's exterior keep its orbit from becoming unstable. Now the Quarg give this ringworld to Jaling Federation and now Jaling own this ringworld. Jaling Citizen reprogrammed ringworld language into Jaling own language (Bahasa Indonesia).`
 	spaceport `The most of this ringworld are populated by human. They spend their time with creative, scientific, or hobby endeavors. The spaceport is decorated with artwork of every imaginable kind: sculptures, mobiles, paintings, music, game theme pictures, and even one hallway that cycles through various artificial doors.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.4
 	security 0.83
 	tribute 8100
@@ -6970,6 +6968,7 @@ planet Ronel
 	spaceport `Ronel Spaceport has placed in middle of ecumenopolis city. A spaceport have speaker, shop, gaming tournament, glasses, pop music, artist, and anymore that fill a spaceport every Saturday, Sunday, and Monday. This spaceport use Sol Calendar.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.25
 	security 0.8
 	tribute 4100
@@ -6980,9 +6979,10 @@ planet Sabina
 	attributes tourism factory jaling
 	landscape land/nasa1
 	description `Sabina is a planet that used to communication between Jaling Human and Quarg. This Planet transmit communication signal and this infastrusture had build in 2423. Native life in this planet were dominated by cat species that can walk as same as human.`
-	spaceport `Sabina spaceport can be found near Quarg and Jaling Federation communication facility and near Sphere energy. There are many Quarg and Jaliing communicate between them using Indonesian Language.`
+	spaceport `Sabina spaceport can be found near Quarg and Jaling Federation communication facility and near Rune energy. There are many Quarg and Jaling communicate between them using Indonesian Language.`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.75
 	tribute 2800
@@ -6993,17 +6993,14 @@ planet Sadalmajas
 	attributes quarg moon
 	landscape land/canyon01
 	description `For Quarg, Sadalmajas is a barren planet and barely habitable for Quarg that Regular Human can't survive in this world, the human subspecies that can survive in this world is Jaling Human because Jaling Human have technology and new genetic (by adding magic particle) that can adapted long-live in worse condition in human presures. In this planet, Quarg and Jaling Human mining mineral, metal, heavy metal, and even treasure for research a new technology.`
-	spaceport `Sadalmajas have spaceport that can shine beam light from beacon so you can view easily from sky in this planet. Also, you can find mineral for electronic production, such as graphene, carbon, steel, titanium, etc. and you can find Jaling weapon in this planet`
-	outfitter "Jaling Advanced"
+	spaceport `Sadalmajas have spaceport that can shine beam light from beacon so you can view easily from sky in this planet. Also, you can find mineral for electronic production, such as graphene, carbon, steel, titanium, etc..`
 	security 0.9
 
 planet Sajasadal
 	attributes quarg
 	landscape land/space4
-	description `Sajasadal is an another Quarg station that connect Quarg and Jaling Human communication. In this station, visitor can see scenic space from station nor playing games in this station by using Quarg machine or Jaling machine or Laptop. There are many imported item from Human space and Hai space that can be bought in this station in Jaling Space`
-	spaceport `Sajasadal spaceport looks very advanced, clean, tidy, professional, and secure. In this spaceport, you can buy imported items from human space for jaling space. There is bedroom that you can sleep in this station if you got sleepy. In bedroom, you found internet television, communication media, etc.`
-	shipyard "Jaling Advanced"
-	outfitter "Jaling Advanced"
+	description `Sajasadal is an another Quarg station that connect Quarg and Jaling Human communication. In this station, visitor can see scenic space from station nor playing games in this station by using Quarg machine or Jaling machine or Laptop.`
+	spaceport `Sajasadal spaceport looks very advanced, clean, tidy, professional, and secure. There is bedroom that you can sleep in this station if you got sleepy. In bedroom, you found internet television, communication media, etc.`
 	security 0.9
 
 planet Samurintang
@@ -7028,7 +7025,7 @@ planet Selor
 	spaceport `Selor Spaceport are near capital planet city. There are many merchants, ice cream seller, fried rice restaurant, indonesian food, indonesian drink, wi-fi, magic fidelity internet, and internet cafe in spaceport.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
-	"required reputation" 0
+	"required reputation" 10
 	bribe 0.1
 	security 0.75
 	tribute 3500
@@ -7043,6 +7040,7 @@ planet Setropis
 	spaceport `Setropis spaceport is most using magic for technology. This spaceport are guarded by Jaling Community, Jaling Group, Jaling Military, and Jaling Aeon.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 0
 	bribe 0.25
 	security 0.81
 	tribute 25000
@@ -7057,6 +7055,7 @@ planet Shinta
 	spaceport `There are many several worker, visitor, citizen in spaceport that you meet in this planet. You find them in hangar, they seem busy to their ambitions for future. Also, you found several Earth human, cat, and Jaling human itself. In this spaceport, you find a text "Wanita yang baik untuk pria yang baik dan sebaliknya" which mean "The good woman is for good man and vice versa".`
 	shipyard "Jaling Advanced"
 	outfitter "Jaling Advanced"
+	"required reputation" 150
 	bribe 0.2
 	security 0.75
 	tribute 5400
@@ -7066,12 +7065,13 @@ planet Shinta
 planet Silatap
 	attributes jaling tourism hunter factory
 	landscape land/mountain6
-	description `There is a barren planet that is home for hunter. This planet dominated by monster, dinosaurus, raptor, dragon, and elder dragon. The hunter task to work in this planet is for gathering, collecting items, collecting hunted commodity, slaying monster, catch hunter, etc.`
+	description `There is a barren planet that is home for hunter. This planet dominated by animals, dinosaurus, and raptor. The hunter task to work in this planet is for gathering, collecting items, collecting hunted commodity, hunt and catch animals, etc.`
 	description `	In economy, hunter sell their obtained commodity to worker in spaceport.`
 	spaceport `There are several hunters and workers in this spaceport that seem busy to their task. The hunters ask to employer for hunter quest while the workers seem busy for various task: maintenance spaceport; create weapon; creating more ships; creating self-defense; etc.`
 	spaceport `	Also, the workers are lets you to enter private room.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.15
 	security 0.7
 	tribute 2100
@@ -7081,8 +7081,8 @@ planet Silatap
 planet Tambora
 	attributes "jaling pirate" pirate
 	landscape land/snow10
-	description `Tambora is a snowy, cold, and almost uninhabited planet. There are very few forest, tropical biome, and almost no human pirate settlement in this planet, but much green algae, penguin, snowy mammals, snowy monster and more mammoth. The Pirate save and hiding several Jaling Human criminal victim.`
-	spaceport `The pirate are not friendly with you and force you to consume drug and prostitution victim, but you say no to drug and prostitution. The pirate don't kill you and just say to you "Bad Boy dan Bad Girl itu wajib dicintai, dipacari karena asyik dan gaul" its translated to English "The Bad Boy and Bad Girl must be loved, dated because they are fun". But you ignore it and stay in Jaling Human principle "The good woman will get good man, and vice versa".`
+	description `Tambora is a snowy, cold, and almost uninhabited planet. There are very few forest, tropical biome, and almost no settlement in this planet, but much green algae, penguin, snowy mammals, snowy animals and more mammoth. Ulcenia save and hiding several Jaling Human criminal victim.`
+	spaceport `The citizen are not friendly with you and force you to consume drug and prostitution victim, but you say no to drug and prostitution. Ulcenia don't kill you and just say to you "Bad Boy dan Bad Girl itu wajib dicintai, dipacari karena asyik dan gaul" its translated to English "The Bad Boy and Bad Girl must be loved, dated because they are fun". But you ignore it and stay in Jaling Human principle "The good woman will get good man, and vice versa".`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -7101,6 +7101,7 @@ planet Tekaring
 	spaceport `	In some point, they are willing to refuel your ship.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.2
 	security 0.75
 	tribute 2700
@@ -7109,14 +7110,14 @@ planet Tekaring
 
 planet Tengkulu
 	landscape land/fields11-sfiera
-	description `Tengkulu is a planet that colonized in 2667 by Jaling Federation. But now, Tengkulu is an abandoned planet after Jaling Federation and Jaling Pirate war in 2915-2973. There are many abandoned city and buildings because Jaling Pirate were attacked Jaling Federation colony (Jaling Human) and rape Jaling Human and then destroy Jaling Human couple romance in This planet.`
+	description `Tengkulu is a planet that colonized in 2667 by Jaling Federation. But now, Tengkulu is an abandoned planet after Jaling-Ulcenia war in 2915-2973. There are many abandoned city and buildings because Ulcenia were attacked Jaling colony and rape Jaling and then destroy Jaling civilian couple romance in this planet.`
 	security 0
 
 planet Teranung
 	attributes "jaling pirate" pirate
 	landscape land/valley10-sfiera
-	description `Teranung is a earthlike planet which contains indigeneous life. It 's a forest and hills world. There are also animal and forest that like form of life from earth. The Ulcenia (Female people) were colonize this world since 2855 (its has been known by Jaling in the past), they establish their colony for they premanism practice nor their military practice style.`
-	spaceport `The spaceport are placed beside the hills.And beside hills, there are the city named Trunang which the status of it is capital of this world. Unlike many world of the Jaling Pirate which they are evil, The citizen in this world are good which had carried by Ulcenia military and throwed to this planet. The citizen will attempted to get out from Jaling Pirate governance, and to be Independent or probably to join the Jaling Federation.`
+	description `Teranung is a earthlike planet which contains indigeneous life. It 's a forest and hills world. There are also animal and forest that like form of life from earth. The Ulcenia were colonize this world since 2855 (its has been known by Jaling in the past), they establish their colony for they premanism practice nor their military practice style.`
+	spaceport `The spaceport are placed beside the hills.And beside hills, there are the city named Trunang which the status of it is capital of this world. Unlike many world of the Ulcenia which they are evil, The citizen in this world are good which had carried by Ulcenia military and throwed to this planet. The citizen will attempted to get out from Ulcenia governance, and to be Independent or probably to join the Jaling Federation.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -7133,6 +7134,7 @@ planet Thania
 	spaceport `Thania spaceport can be found in Thania International Island that there are slightly many infrastructure in that island.`
 	shipyard "Jaling Basics"
 	outfitter "Jaling Basics"
+	"required reputation" 10
 	bribe 0.3
 	security 0.75
 	tribute 1400
@@ -7173,10 +7175,10 @@ planet Thanisula
 planet Tidonore
 	attributes "jaling pirate" pirate
 	landscape land/city13-sfiera
-	description `Tidonore is a deserted urban planet, but have vertical forest buildings. The Ulcenia have establish vertical forest buildings, but their also build vertical illegal plant building for production of their drug to sell and distribute their drugs in Jaling Pirate space and beyond.`
-	description `	In Economy, Jaling pirate have resell their good result from steal merchant goods for their economy.`
-	spaceport `The spaceport's landing pads are just a set in center of widely ecumenopolis city, surrounding a larger building beside spaceport. Inside the spaceport, the pirate in lab who are named "The best Ulcenia" research their jobs for drug material. Beside that, they also produce their money for buying the goods they want.`
-	spaceport `	In Social, The Pirate will walk and go socialization with another corrupt people and build their corrupt community for their crime act.`
+	description `Tidonore is a deserted urban planet, but have vertical forest buildings. The Ulcenia have establish vertical forest buildings, but their also build vertical illegal plant building for production of their drug to sell and distribute their drugs in Ulcenia space and beyond.`
+	description `	In Economy, the citizens have resell their good result from steal merchant goods for their economy.`
+	spaceport `The spaceport's landing pads are just a set in center of widely ecumenopolis city, surrounding a larger building beside spaceport. Inside the spaceport, the citizens in lab who are named "The best Ulcenia" research their jobs for drug material. Beside that, they also produce their money for buying the goods they want.`
+	spaceport `	In Social, Ulcenians will walk and go socialization with another corrupt people and build their corrupt community for their crime act.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
 	outfitter "Pirate Outfits"
@@ -7189,7 +7191,7 @@ planet Tidonore
 planet Trangasiur
 	attributes "jaling pirate" pirate
 	landscape land/fog6
-	description `Trangasiur is a forest world which contains 70% land and 30% water in surface. This world also have indigeneous life. In the land, there are frog, huge frog, cat, horse, and mammal animal. And in the water, there are many huge fish, monster fish and even dangerous fish. The dangerous fish are Truja fish, Great Bowfin, Bartogi fish.`
+	description `Trangasiur is a forest world which contains 70% land and 30% water in surface. This world also have indigeneous life. In the land, there are frog, huge frog, cat, horse, and mammal animal. And in the water, there are many huge fish, and even dangerous fish. The dangerous fish are Truja fish, Great Bowfin, Bartogi fish.`
 	description `	In citizen life, the colony live in the city that placed in the middle of the continent. There are many drug (not medicine), illegal magic, and illegal work facilities in it.`
 	spaceport `The spaceport are created by using asteroid material which make this spaceport are harder even tougher than almost any human spaceport in human space. Texture for the spaceport is very soft. And in many part of spaceport building use coloured light to lighting the spaceport with different colours.`
 	shipyard "Jaling Advanced"
@@ -7204,7 +7206,7 @@ planet Trangasiur
 planet "Tropis Cemara"
 	attributes "jaling pirate" pirate
 	landscape land/myrabella1
-	description `Tropis Cemara is a moon of capitol planet (New Way Kambas) of Ulcenia. Tropis Cemara is also formerly known as Bulan Cemara. Bulan Cemara colonized by merged Ulcenia and Pirate team in 2708 after colonize New Way Kambas in 2704. The Ulcenia community prohibit you to see their life in this planet, and anything. So, instead it, you use FTL jetpack to see their life without their known. The Clubbing are spreaded in anyplace.`
+	description `Tropis Cemara is a moon of capitol planet (New Way Kambas) of Ulcenia. Tropis Cemara is also formerly known as Bulan Cemara. Bulan Cemara colonized by Ulcenia in 2708 after colonize New Way Kambas in 2704. The Ulcenia community prohibit you to see their life in this planet, and anything. So, instead it, you use FTL jetpack to see their life without their known. The Clubbing are spreaded in anyplace.`
 	spaceport `The spaceport is a megapolis city, with a population of one billion. You can see their activity by using spy agents from Jaling Federation. Then, the agents tell you that almost of their citizen have laser gun and deadly rune.`
 	shipyard "Jaling Advanced"
 	outfitter "Ulcenia Outfits"
@@ -7224,6 +7226,7 @@ planet Turamika
 	spaceport `	Also, they were welcome to you and let you do relaxing in this spaceport.`
 	shipyard "Jaling Intermediate"
 	outfitter "Jaling Intermediate"
+	"required reputation" 75
 	bribe 0.16
 	security 0.75
 	tribute 3900
@@ -7233,7 +7236,7 @@ planet Turamika
 planet Watuning
 	attributes "jaling pirate" pirate
 	landscape land/bwerner3
-	description `Watuning is a mining world. The Watuning word is abbreviation from "Watu Kuning" which the "Watu" means stone, "Kuning" means yellow. It contains few ocean which only fills 40% of the surface. Jaling Pirate build the mining facilities to drill several minerals from bottom of the surface. Also, they establish mine to freight harvested minerals to factory for advanced production.`
+	description `Watuning is a mining world. The Watuning word is abbreviation from "Watu Kuning" which the "Watu" means stone, "Kuning" means yellow. It contains few ocean which only fills 40% of the surface. Ulcenia build the mining facilities to drill several minerals from bottom of the surface. Also, they establish mine to freight harvested minerals to factory for advanced production.`
 	spaceport `The spaceport has been placed beside mineral industry. It contains living room, restaurant, hotel, and goods storage. Goods storage room is purposed for saving their finished goods to export the material into the rest of the world. The hotel provides more service option for users. In restaurant, they sell many food of Indonesian foods like Jaling Federation.`
 	shipyard "Jaling Intermediate"
 	outfitter "Ulcenia Outfits"

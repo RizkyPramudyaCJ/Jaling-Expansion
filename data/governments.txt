@@ -22,7 +22,7 @@ government "Hai"
 
 government "Hai (Unfettered)"
 	"attitude toward"
-		"Jaling Federation" -.1
+		"Jaling Federation" -.01
 		"Ulcenia" .1
 
 government "Heliarch"
@@ -34,16 +34,17 @@ government "Jaling Federation"
 	
 	"player reputation" 1
 	"attitude toward"
-		"Alpha" -.1
-		"Hai (Unfettered)" -.1
-		"Ulcenia" -.1
-		"Korath" -.1
+		"Alpha" -.01
+		"Hai (Unfettered)" -.01
+		"Ulcenia" -.01
+		"Korath" -.01
 		"Merchant" .5
 		"Neutral" .1
-		"Pirate" -.1
+		"Pirate" -.01
 	"bribe" .25
 	"friendly hail" "friendly jaling federation"
 	"hostile hail" "hostile jaling federation"
+	"hostile disabled hail" "hostile disabled jaling federation"
 
 government "Merchant"
 	"attitude toward"
@@ -55,7 +56,7 @@ government "Neutral"
 
 government "Pirate"
 	"attitude toward"
-		"Jaling Federation" -.1
+		"Jaling Federation" -.01
 		"Ulcenia" .1
 
 government "Pug"
@@ -92,7 +93,7 @@ government "Ulcenia"
 		"Hai" -.1
 		"Hai (Unfettered)" .1
 		"Heliarch" -.01
-		"Jaling Federation" -.1
+		"Jaling Federation" -.01
 		"Kor Efret" -.01
 		"Korath" -.1
 		"Merchant" -.1
@@ -103,6 +104,7 @@ government "Ulcenia"
 	"bribe" .5
 	"fine" 0
 	"hostile hail" "hostile ulcenia"
+	"hostile disabled hail" "hostile disabled ulcenia"
 
 government "Wanderer"
 	"attitude toward"
