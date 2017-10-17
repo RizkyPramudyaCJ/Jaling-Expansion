@@ -1,0 +1,229 @@
+# Copyright (c) 2017 by Rizky Pramudya
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+mission "First Contact: Jaling"
+	landing
+	source "Setropis"
+	to offer
+		has "Wanderers: Sestor: Final: done"
+		has "Coalition: Contributor: done"
+	on offer
+		conversation
+			`As you landing your ship, you see Jaling people in spaceport. Then, you walk with some step into spaceport door gate and you will get out. Not far from spaceport you found chair near park and you sit down to it. After some time, the teenager boy come to you and speaks the language which not you understand.`
+			`	"Hai, apa kabar!" greet from the teenager boy.`
+			`	You try to speak to him with your language. "What language do you use?".`
+			`	The teenager boy doesn't understand and still speaks their language, "Aku tidak mengerti, maaf ya." Answer the teenager boy with smiled.`
+			`	Then, the teenager girl come to you and still speaks same language, "Hai, saya Rani Fernandita, saya pacar dari anak ini yang bernama Andrean Sultan, Salam dari Jaling ya! Kamu siapa?"`
+			choice
+				`	"Sorry, I don't understand in your language, can you speak English?"`
+			`	"Maaf, aku masih tidak mengerti, kamu bisa berbicara bahasa kami?", says the teenager girl and you are confused and feel slightly annoyed.`
+			`	After some time ago, another teenager boy come to you and say "Hi, I see you speak with two teenagers, sorry if they don't understand you because they don't understand English. who are you?"`
+			choice
+				`	"I'm <first> <last>. I'm from human space. Who are you?"`
+				`	"I'm <first> <last>. I'm from human space. Are you from Earth?"`
+					goto earth
+			`	"I'm Rizky Pramudya, a represent from Jaling Federation government with Jaling Community. I born from Samarinda, Indonesian, Earth, Sol at May 27th 2000. Now, My home is in other planet named Fukarina."`
+				goto next1
+
+			label earth
+			`	"Yes, I'm from Earth.", "Who are you?" ask you. "I'm Rizky Pramudya, a represent from Jaling Federation government with Jaling Community. I born from Samarinda, Indonesian, Earth, Sol at May 27th 2000. Now, My home is in other planet named Fukarina."`
+				goto next1
+			
+			label next1
+			`	"Who are these two teenagers?" ask you.`
+			`	"These two teenagers are from Tropivia, Jaling Corporation states, Trovidia Queendom is name for this states in the past. They are in a loving relationship and they grew up in a healthy social environment and much of loving parents." Reply Rizky Pramudya. "I will ask first to them" says Rizky Pramudya. Then, Rizky Pramudya ask them in their language, "Dek, kalian ditanyain apa sama dia?". Two teenagers explain "Tidak tahu kak, saya nyapa ke dia dan saya lihat dia malah melamun mungkin ada masalah yang belum diselesaikan dalam kehidupannya. Coba jelaskan kak?" Reply Rani. Rizky Pramudya ask to you and then explain to two teenagers "Dia itu mencoba untuk bertanya kepada kalian bahasa apa yang digunakan kalian dek. Adek jawab dengan bahasa kalian, nah, dia itu tidak mengerti bahasa kalian dek. Aku akan mencoba untuk menjelaskan kepada dia apa yang kamu bicarakan kepadanya." explains Rizky with smiled. He explain to you "They greet and introduce theirselves to you in Indonesian language. They also say that they are in a relationship. This girl name is Rani Fernandita and this teenager boy name is Andrean Sultan. You can ask about them to me and hopefully I will answer your ask.".`
+			choice
+				`	"Oh, I already know. Wait. May 27th 2000?! Are you entering time travel or doing something?!"`
+					goto something
+				`	"Hmmmm..." (And you give him a human space map.)`
+			`	Rizky Pramudya see the map and compare with his map to view detail of your map, and Rizky says "Hmmmm... I probably ever visiting these place about 950 years ago in last time when I with Bella Putri went to Hai space only for roaming and diplomation at once. They are peaceful in that time, but I don't know what happen about Hai in this time. In that time, I went war with Heliarch against Earthlings because they are decadence, authoritarian parenting, authoritarian leaders, thug, and dictator group. Many hopeless relationship people, lack of love people include the unlove teenagers, patients people, and poverty we saved to this place to cured with psychology teraphy from elf, psychologist, nor psychiatrist." Then Rizky Pramudya continue to observe your map and he says "I ever visited Korath space with Bella Putri in 2074 AD. In that time, Korath make a robotic ship factions named Korath Automaton Project which now named Mereti and Sestor. But, sadly in 2887 AD the Quarg with Drak banish Korath into Exiles space because their big crime, they invade Hai space to rob Hai resources with Korath automata."`
+			`	You continue speaking about other space that Rizky ever visited. Not long from now, the girl walking close to your conversation then caressing him and says "Rizky, kamu sedang bicara sama orang itu ya?", "Iya, saya bicara sama dia tentang peradaban di luar human space yang saya lihat di petanya. Eh Bell, Ini dia yang datang dari human space, silahkan perkenalan sama <first> <last>." replied Rizky to her. "<first> <last>, meet this person, Bella Putri Miftahul Nurjannah, a vice leader from Jaling Federation government and Queen ruler of Trovidia Queendom before."`
+				goto bellaputri
+				
+			label something
+			`	"No, I came here since 2018 AD when I with my grup escape from Earth because its difficult to be developed if I and my grup stay on Earth which many authoritarian and selfish parents and also I had difficult to find girlfriend to find love for me and my grup also feel same problem. So, I make decision to migrate to another human civilization by making secrets contact with alien civilization. And finally, the Pug come to Earth and bring me to distant another human civilization which named Trovidia Queendom in Setropis and now known as Jaling civilization. In that time, I meet Bella Putri as ruler of Trovidia Queendom. Then, in 2025 AD I marrying Bella Putri and she got additional names 'Miftahul Nurjannah' behind her full name. Afterwards, I and my wife got biology and magically upgrade which make me and my wife immortal until now. So, I life until now is not by time travel, but by biology and magically upgrades." replied Rizky.`
+			`	Then, you continue speaking with him about his personal life. Not long from now, the girl walking close to your conversation then caressing him and says "Rizky, kamu sedang bicara sama orang itu ya?", "Iya, saya bicara sama dia tentang kehidupan saya waktu saya ingin pindah dari Bumi ke peradaban manusia lain sampai menikah denganmu dan saya juga menjawab pertanyaan darinya yang kaget dan mengira kalau saya hidup sampai sekarang ini karena mesin waktu atau sesuatu yang lain. Eh Bell, Ini dia yang datang dari human space, silahkan perkenalan sama <first> <last>." replied Rizky to her. "<first> <last>, meet this person, Bella Putri Miftahul Nurjannah, a vice leader from Jaling Federation government and Queen ruler of Trovidia Queendom before."`
+				goto bellaputri
+
+			label bellaputri
+			`	"Hi!" says Bella with smiles and you replies her with your smiles too. "<first>, we have plan to visit Ring of Friendship in Coalition space, do you want to join with our all?`
+			choice
+				`	"Alright, I follow with your all."`
+					accept
+				`	"Hmmmm... Probably."`
+			`	"Why probably? You may follow with me and my love. It's fine <first>." Bella replies to you.`
+			choice
+				`	"Well then, okay. I follow with you all."`
+					accept
+
+	on accept
+		fail "First Contact: Jaling"
+
+					
+					
+mission "Discovered Jaling Space"
+	landing
+	invisible
+	source
+		government "Jaling Federation"
+	on offer
+		event "label jaling space"
+		fail
+
+event "label jaling space"
+	galaxy "label jaling"
+		sprite label/jaling
+
+
+
+mission "Jaling: Visit Heliarch ringworld"
+	landing
+	name "Visit Heliarch ringworld"
+	description "Bring Rizky Pramudya and his love to Ring of Friendship."
+	source "Setropis"
+	destination "Ring of Friendship"
+	clearance
+	to offer
+		has "First Contact: Jaling: offered"
+
+
+
+mission "Back to Setropis"
+	description "Bring back Rizky Pramudya and his love to Setropis, Bella Putri Miftahul Nurjannah want give you a surprise."
+	landing
+	source "Ring of Friendship"
+	destination "Setropis"
+	clearance
+	to offer
+		has "Jaling: Visit Heliarch ringworld"
+	on offer
+		log "People" "Arimetum" `Arimetum is a Saryd as Heliarch officer in Coalition environment. He work in one of the ringworld officer since 70 years ago. His vision is to keep Coalition and their alliance, Jaling Federation peace and minimum criminal.`
+		conversation
+			`You with Rizky Pramudya and his love come to this ringworld for recreation and you follow Bella which going to Heliarch government office. Then, you encounters a Saryd as Heliarch officer.`
+			`	"Welcome to our office. You can ask about Coalition, or anything to me. Please ask to me what do you want to ask?".`
+			choice
+				`	"Why most of Jaling civilian can't speak English?"`
+					goto speak
+				`	"Can you help me to communicate with most of Jaling civilian?"`
+					goto communication
+				`	"Do you know Rizky Pramudya?"`
+			`	"Yes, I know. He's a leader of Jaling as same as Bella Putri which as vice leader of Jaling. I ever encounter him when he wear civilian cloth and sadly, he says if he was difficult to finding love because many earthlings girl not care about him. So in that time, we give our license and military vessel without military training for him and his love as exception because he have great experience about space, battle tactics, mysterious power, and because he got loved by his love." says Heliarch officer.`
+				goto heliarchwho
+			
+				label speak
+			`	"Most of Jaling civilian not understand English because until now Jaling had disconnect the communication between Jaling and Earth human civilization since 980 years ago. And in 960 years ago, Rizky request to us to join Jaling military for declare war against Earthlings. The another factor is that there are no hyperspace links between Jaling space and human space, so human from human space can't found this space. But, actually Jaling are acceptable, they accept refugee which threaten by dictatorship government, unhappy because difficult for finding love, and have problem in their past life. As beside that, the survey says that only 30 percent of Jaling population can speak English. So, you must speak Indonesian language as communication to Jaling to understanding them." says Heliarch officer.`
+				goto heliarchwho
+			
+				label communication
+			`	"I know if you have problem of this issues because you not understand them, I tell you that Jaling use Indonesian as primary language. But, don't worry we suggest you to use Indonesian-English translator, it's easier for you than human-alien translator." says Heliarch officer.`
+				goto heliarchwho
+			
+				label heliarchwho
+			`	"But, who are you?" you ask again.`
+			`	"I'm Arimetum, as Heliarch officer of Coalition. I have work in this place since 70 years ago. Not only as Heliarch officer, I with other Heliarch officer had cooperated with Jaling and this colaboration still continue until now since 980 years ago."`
+			`	And not long time then, Rizky ask to you "Arimetum, I ever hear if you ever war with Quarg as my friend since 6000 years. Is it right?"`
+			`	"How do you know, Rizky?" Arimetum asked back to him.`
+			`	"I knew the information from Quarg."`
+			`	"Yes, we did it. We all went war to swipe Quarg from the ringworld as current as our military headquarters now. Also, they surrender into another civilization which you know as Jaling." replied Arimetum.`
+			`	The situation is calm, they breaktime and then Rizky discuss and say "I want to discuss about the problem, until now our civilization experienced rapid war against selfish human group from different space. This is third war of old Earthlings, they invade my civilization even when hyperspace link was shutdown by Pug. They oftenly invade these three system in east of Jaling space, If this is ignored, they can destroy our civilization even human space. So, we want your help to solve this. Are you willing to help me as assistant?"`
+			choice
+				`	"Yes"`
+			`	"<first>, bring me with my husband back to my home. I will give you a surprise" says Bella Putri with her smile.`
+				accept
+				
+	on accept
+		"reputation: Heliarch" >?= 20
+		"reputation: Coalition" >?= 20
+				
+
+
+mission "Bella Give The Surprise to You"
+	landing
+	autosave
+	source "Setropis"
+	to offer
+		has "Back to Setropis"
+	on offer
+		log "Bella Putri give you a Indonesian-English translator machine and 'Trovidrum Book'. Unlock few of Jaling outfits and ships."
+		log "Factions" "Jaling Federation" `The another human civilization in another human territory. They migrate from Earth to the Setropis with Pug ships because they believe that Earth is complicated for their need.`
+			`Setropis colony establish the faction at 2025 AD four hours after Rizky-Bella wedding. Their independence celebration is not because their heroic moment, but because they get fund from interstellar crowdfunding and kickstarter. Jaling use Hordia as official currency`
+		log "People" "Rizky Pramudya" `Rizky is a Jaling Federation founder or leader. He had several bad experience in his past life and believe that all of Jaling civilian are kind. In his vision, he won't authoritarian people live in Jaling. So, everyone which destroy child psychology will banished from this territory.`
+			`As information, Rizky born at May 27th 2000 in Earth and his real username is RizkyPramudyaCJ.`
+		log "People" "Bella Putri Miftahul Nurjannah" `Bella is a Rizky's wife which in her life, she protect him against any mental abuse. Jaling history says that before Jaling Federation emerge, she served as Queen of Trovidia. She believe that scolding, punching, and any mental abusive to child even from parents are considered bullying and can destroy child psychology and billion of brain cell.`
+		conversation
+			`Bella Putri speak to you and leave Setropis with Rizky Pramudya, "Thank you very much, <first>. Because you helped us both. Oh ya, I give this translator machine for you. This tool can help you to communicate with Jaling which translate Bahasa Indonesia into English in real time. One again, if you wanna join to our government or vent, please come to me in Fukarina. I give you 3000 Hordia. Bye <first> <last>."`
+				decline
+
+	on decline
+		outfit "Trovidrum Book" 1
+		"reputation: Jaling Federation" >?= 15
+		event "jaling technology available phase 1"
+		event "jaling translation to english"
+		
+	on complete
+		payment 12000000
+		
+event "jaling technology available phase 1"
+	shipyard "Jaling Basics"
+		"Jaling Quicksilver"
+	outfitter "Jaling Basics"
+		"J-1 Biobattery"
+		"Atmospheric Rune Shielding"
+		"Hyperdrive"
+		"Local Map"
+		"Pilot's License"
+		"Cargo Expansion"
+		"Outfits Expansion"
+		"Small Bunk Room"
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Thunder Beam"
+		"Jaling Ramscoop"
+	shipyard "Jaling Intermediate"
+		"Jaling Quicksilver"
+	outfitter "Jaling Intermediate"
+		"Thunder Beam"
+		"Small Bunk Room"
+		"Bunk Room"
+		"J-1 Biobattery"
+		"Atmospheric Rune Shielding"
+		"Jaling Ramscoop"
+		"Hyperdrive"
+		"Scram Drive"
+		"Local Map"
+		"Pilot's License"
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Cargo Expansion"
+		"Outfits Expansion"
+	Outfitter "Ulcenia Outfits"
+		"Thunder Beam"
+		"Small Bunk Room"
+		"Bunk Room"
+		"J-1 Biobattery"
+		"Atmospheric Rune Shielding"
+		"Jaling Ramscoop"
+		"Hyperdrive"
+		"Scram Drive"
+		"Local Map"
+		"Pilot's License"
+		"Cargo Scanner"
+		"Outfit Scanner"
+		"Cargo Expansion"
+		"Outfits Expansion"
+
+event "jaling translation to english"
+	government "Jaling Federation"
+		"friendly hail" "friendly jaling federation (english)"
+		"hostile hail" "hostile jaling federation (english)"
+		"hostile disabled hail" "hostile disabled jaling federation (english)"
+	government "Ulcenia"
+		"hostile hail" "hostile ulcenia (english)"
+		"hostile disabled hail" "hostile disabled ulcenia (english)"
